@@ -1,7 +1,7 @@
 /**
  * BaseDatosMySQL
  */
-public class BaseDatosMySQL extends BaseDatosGenerica {
+public class BaseDatosMySQL implements BaseDatosGenerica {
 
     @Override
     public String cadenaConexion() {

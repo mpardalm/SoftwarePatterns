@@ -1,6 +1,6 @@
 /**
  * BaseDatosGenerica
  */
-public abstract class BaseDatosGenerica {
+public interface BaseDatosGenerica {
     public abstract String cadenaConexion();
 }

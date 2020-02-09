@@ -1,7 +1,7 @@
 /**
  * BaseDatosSQLServer
  */
-public class BaseDatosSQLServer extends BaseDatosGenerica {
+public class BaseDatosSQLServer implements BaseDatosGenerica {
     
     @Override
     public String cadenaConexion(){

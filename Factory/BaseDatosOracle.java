@@ -1,7 +1,7 @@
 /**
  * BaseDatosOracle
  */
-public class BaseDatosOracle extends BaseDatosGenerica{
+public class BaseDatosOracle implements BaseDatosGenerica{
 
     @Override
     public String cadenaConexion() {
