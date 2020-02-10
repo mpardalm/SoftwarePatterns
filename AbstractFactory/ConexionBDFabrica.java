@@ -1,3 +1,10 @@
+package AbstractFactory;
+
+import Factory.BaseDatosGenerica;
+import Factory.BaseDatosMySQL;
+import Factory.BaseDatosOracle;
+import Factory.BaseDatosSQLServer;
+
 /**
  * ConexionBDFabrica
  */

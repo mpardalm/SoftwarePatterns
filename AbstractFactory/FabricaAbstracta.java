@@ -1,3 +1,7 @@
+package AbstractFactory;
+
+import Factory.BaseDatosGenerica;
+
 /**
  * FabricaAbstracta
  */

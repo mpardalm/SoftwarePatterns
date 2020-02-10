@@ -1,3 +1,5 @@
+package Decorator;
+
 /**
  * Cuenta
  */
@@ -5,6 +7,7 @@ public class Cuenta {
 
     private int id;
     private String cliente;
+    private double saldoInicial;
 
     public Cuenta() {
 
@@ -13,6 +16,12 @@ public class Cuenta {
     public Cuenta(int id, String cliente) {
         this.id = id;
         this.cliente = cliente;
+    }
+
+    public Cuenta(int id, String cliente, double saldoInicial) {
+        this.id = id;
+        this.cliente = cliente;
+        this.saldoInicial = saldoInicial;
     }
 
     public int getId() {
@@ -29,5 +38,13 @@ public class Cuenta {
 
     public void setCliente(String cliente) {
         this.cliente = cliente;
+    }
+
+    public double getSaldoInicial() {
+        return saldoInicial;
+    }
+
+    public void setSaldoInicial(double saldoInicial) {
+        this.saldoInicial = saldoInicial;
     }
 }
